@@ -1,6 +1,6 @@
 <header>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/my_css/custom-buttom.css">
+    <link rel="stylesheet" href="assets_css/custom-buttom.css">
 </header>
 
 <h1>Animation Buttons</h1>

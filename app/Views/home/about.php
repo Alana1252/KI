@@ -5,34 +5,34 @@
   <title>About | Kedai Indonesia</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.assets_css/css/4.1.1/animate.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="assets_css/css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="assets_css/css/animate.css">
 
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="assets_css/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets_css/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets_css/css/magnific-popup.css">
 
-  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="assets_css/css/aos.css">
 
-  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="assets_css/css/ionicons.min.css">
 
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-  <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <link rel="stylesheet" href="assets_css/css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="assets_css/css/jquery.timepicker.css">
 
 
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/icomoon.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets_css/css/flaticon.css">
+  <link rel="stylesheet" href="assets_css/css/icomoon.css">
+  <link rel="stylesheet" href="assets_css/css/style.css">
 </head>
 
 <body class="goto-here">
   <?= $this->include('layout/navbar_user'); ?>
-  <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);">
+  <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(/assets_images/images/bg_3.jpg);">
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center">
         <div class="col-md-9 ftco-animate text-center"><span class="mr-2">
@@ -84,7 +84,7 @@
   <section class="ftco-section ftco-no-pb  bg-light pt-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/logo/teamki1.jpg);">
+        <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(/assets_images/images/logo/teamki1.jpg);">
           <a href="https://www.youtube.com/watch?v=PAdqf2y4mmE" class="icon popup-vimeo d-flex justify-content-center align-items-center">
             <span class="icon-play"></span>
           </a>
@@ -175,7 +175,7 @@
           <div class="carousel-testimony owl-carousel">
             <div class="item">
               <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                <div class="user-img mb-5" style="background-image: url(/assets_images/images/person_1.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
@@ -189,7 +189,7 @@
             </div>
             <div class="item">
               <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
+                <div class="user-img mb-5" style="background-image: url(/assets_images/images/person_2.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
@@ -203,7 +203,7 @@
             </div>
             <div class="item">
               <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
+                <div class="user-img mb-5" style="background-image: url(/assets_images/images/person_3.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
@@ -217,7 +217,7 @@
             </div>
             <div class="item">
               <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                <div class="user-img mb-5" style="background-image: url(/assets_images/images/person_1.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
@@ -231,7 +231,7 @@
             </div>
             <div class="item">
               <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                <div class="user-img mb-5" style="background-image: url(/assets_images/images/person_1.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
@@ -299,114 +299,23 @@
       </div>
     </div>
   </section>
-
-  <footer class="ftco-footer ftco-section">
-    <div class="container">
-      <div class="row">
-        <div class="mouse ftco-animate">
-          <a href="#" class="mouse-icon">
-            <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
-          </a>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Have a Questions?</h2>
-            <div class="block-23 mb-3">
-              <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-              </ul>
-            </div>
-            <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Help</h2>
-            <div class="d-flex">
-              <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
-                <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
-                <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
-                <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
-                <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
-              </ul>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">FAQs</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Download Kedai Indonesia.</h2>
-            <div class="row ftco-animate">
-              <div class="col">
-                <a href="#app" target="_blank">
-                  <img class="img download-app" src="images/logo/barcode.png" alt="barcode">
-                </a>
-              </div>
-              <div class="col">
-                <div class="block-23" style="padding-top: 15%;">
-                  <ul>
-                    <a href="#play-game" target="_blank">
-                      <li><img class="img download-app" src="images/logo/play.png"></li>
-                    </a>
-                    <a href="#app-store" target="_blank">
-                      <li><img class="img download-app" src="images/logo/app.png"></li>
-                    </a>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>
-              document.write(new Date().getFullYear());
-            </script> <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="#" target="_blank">Me</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
-    </svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/scrollax.min.js"></script>
+  <?= $this->include('layout/footer'); ?>
+  <script src="assets_js/js/jquery.min.js"></script>
+  <script src="assets_js/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="assets_js/js/popper.min.js"></script>
+  <script src="assets_js/js/bootstrap.min.js"></script>
+  <script src="assets_js/js/jquery.easing.1.3.js"></script>
+  <script src="assets_js/js/jquery.waypoints.min.js"></script>
+  <script src="assets_js/js/jquery.stellar.min.js"></script>
+  <script src="assets_js/js/owl.carousel.min.js"></script>
+  <script src="assets_js/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets_js/js/aos.js"></script>
+  <script src="assets_js/js/jquery.animateNumber.min.js"></script>
+  <script src="assets_js/js/bootstrap-datepicker.js"></script>
+  <script src="assets_js/js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+  <script src="assets_js/js/google-map.js"></script>
+  <script src="assets_js/js/main.js"></script>
 
 </body>
 
