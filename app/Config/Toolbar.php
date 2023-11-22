@@ -38,10 +38,10 @@ class Toolbar extends BaseConfig
         Database::class,
         Logs::class,
         Views::class,
-        // \CodeIgniter\Debug\Toolbar\Collectors\Cache::class,
         Files::class,
         Routes::class,
         Events::class,
+        \Myth\Auth\Collectors\Auth::class,
     ];
 
     /**
